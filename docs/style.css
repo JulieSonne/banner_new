@@ -20,7 +20,26 @@
 }
 h1 {
 	padding: 5%;
+	color: white;
+	font-family: 'Oswald', sans-serif;
 }
 p {
 	padding: 3%;
+	color: limegreen;
+	font-family: 'Oswald', sans-serif;
 }
+h3 {
+	padding: 5%;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+.box {
+	width: 20px;
+	height: 20px;
+	background: black;
+	margin: 5%;
+}
+.striber {
+	display: flex;
+}
+
