@@ -6,44 +6,21 @@
 	50% {background: #1E82AE;}
 	100% {background: #284588;}
 }
-
-.banner1 {
-	height: 80px;
+.banner {
+	height: 150px;
 	width: auto;
 	background-color: orange;
-	animation-name: musika-banner1;
+	animation-name: musika-banner;
 	animation-duration: 3s;
 }
-@keyframes musika-banner1 {
-	0% {background: yellow;}
-	50% {background: orange;}
-	100% {background: red;}
-}
-.banner2 {
-	height: 80px;
-	width: auto;
-	background-color: orange;
-	animation-name: musika-banner2;
-	animation-duration: 3s;
-}
-@keyframes musika-banner2 {
+@keyframes musika-banner {
 	0% {background: orange;}
 	50% {background: red;}
 	100% {background: yellow;}
 }
-.banner3 {
-	height: 80px;
-	width: auto;
-	background-color: orange;
-	animation-name: musika-banner3;
-	animation-duration: 3s;
-}
-@keyframes musika-banner3 {
-	0% {background: red;}
-	50% {background: yellow;}
-	100% {background: orange;}
-}
-/*Tekst*/
 h1 {
-	align-content: center;
+	padding: 5%;
+}
+p {
+	padding: 3%;
 }
